@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="heading-text">David March</h1>
+            <button class="menu-button" id='burger' onclick="dropdownActive();burgerAnimation();">
+            <div class='line'></div>
+            </button>
+            <ul id='dropdownID' class="dropdown">
+                <li onclick="menuItemRemoveActive()">
+                    <A HREF="index.html">About</A>
+                </li>             
+                <li onclick="menuItemRemoveActive()">
+                    <A HREF="work.html">Work</A>
+                </li>             
+                <li onclick="menuItemRemoveActive()">
+                    <A HREF="contact.html">Contact</A>
+                </li>                      </ul>
+        </div>
+        <div class="content">
+            <div class='content1'>
+                <h2 class='content-heading'>About</h2>
+                <img class="content-image" id='about-img' src="images/IMG_1338.JPG"/>
+                <p class="content-text" id="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a iaculis dolor. Vivamus  orci nec porttitor facilisis, enim arcu molestie nisl, in consequat velit nunc sed nisl. Vivamus gravida purus justo, in faucibus dui hendrerit non. Fusce eu ullamcorper lorem. Sed in tempus felis. Duis viverra lacinia massa ut euismod. Cras </p>
+            </div>
+        </div>
+        <div class="footer">
+            <p class='footer-text'>Footer Text</p>
+            <img class="social-icons" src="images/icon-facebook.png"/>
+            <img class="social-icons" src="images/icon-twitter.png"/>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,64 +10,76 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300&display=swap" rel="stylesheet">
     <script src="main.js"></script>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <h1 class="heading-text">David March</h1>
             <button class="menu-button" id='burger' onclick="dropdownActive();burgerAnimation();">
                 <div class='line'></div>
-                </button>  
-                <ul id='dropdownID' class="dropdown">
+            </button>
+            <ul id='dropdownID' class="dropdown">
                 <li onclick="menuItemRemoveActive()">
                     <A HREF="index.html">About</A>
-                </li>             
+                </li>
                 <li onclick="menuItemRemoveActive()">
                     <A HREF="work.html">Work</A>
-                </li>             
+                </li>
                 <li onclick="menuItemRemoveActive()">
                     <A HREF="contact.html">Contact</A>
-                </li>                      </ul>
+                </li>
+            </ul>
         </div>
-        <div class="content">
+        <div class="content-wrapper">
             <div class='content1'>
                 <div>
-                <h2 class='content-heading'>Work</h2>
-                <img class="content-image" id='work-img' src="images/pexels-photo-546819.jpeg"/>
-                <p class="content-text" id="about-text">Latest Work</p>
+                    <h2 class='content-heading'>Work</h2>
+                    <img class="content-image" id='work-img' src="images/pexels-photo-546819.jpeg" />
+                    <p class="content-text" id="about-text">Latest Work</p>
                 </div>
-                <div>
-                        <h2 class='content-heading'>React Concert Database</h2>
-                        <img class="content-image" id='work-img' src="images/showDatabase.png"/>
-                        <p class="content-text" id="about-text">Concert Database using React and converted to a Progressive Web App</p>
-                        </div>
-                <div>
-                        <div>
-                                <h2 class='content-heading'>Yoga Studio Website</h2>
-                                <img class="content-image" id='work-img' src="images/yoga.png"/>
-                                <p class="content-text" id="about-text">Website for a yoga studio using React.</p>
-                                </div>
-                        <div>
+                <div class='work-tile'>
+                    <a class='work-link' href="https://davemarch.github.io/app/" target="_blank">
+                    <h2 class='content-heading'>React Concert Database</h2>
+                    <img class="content-image" id='work-img' src="images/showDatabase.png" />
+                    </a>
+                    <p class="content-text" id="about-text">Concert Database using React and converted to a Progressive
+                        Web App</p>
+                </div>
+                <div class='work-tile'>
+                    <a class='work-link' href="https://davemarch.github.io/yoga/" target="_blank">
+                    <h2 class='content-heading'>Yoga Studio Website</h2>
+                    <img class="content-image" id='work-img' src="images/yoga.png" />
+                    </a>
+                    <p class="content-text" id="about-text">Website for a yoga studio using React.</p>
+                </div>
+                <div class='work-tile'>
+                    <a class='work-link' href="https://davemarch.github.io/distCalc/" target="_blank">
                     <h2 class='content-heading'>Distance Calculator</h2>
-                    <img class="content-image" id='work-img' src="images/DistCalc.png"/>
-                    <p class="content-text" id="about-text">Distance Calculator - Javascript Calculator to help with your fitness goals. Input your distance covered so far this year and your target, and the output will be the average weekly distance you need to cover to hit your goals.</p>
+                    <img class="content-image" id='work-img' src="images/DistCalc.png" />
+                    </a>
+                    <p class="content-text" id="about-text">Distance Calculator - Javascript Calculator to help with
+                        your fitness goals. Input your distance covered so far this year and your target, and the
+                        output will be the average weekly distance you need to cover to hit your goals.</p>
                 </div>
-                <div>
-                        <h2 class='content-heading'>Space Invaders</h2>
-                        <img class="content-image" id='work-img' src="images/SpaceInvaders.png"/>
-                        <p class="content-text" id="about-text">A tribute to the classic game, adapted for mobile and desktop.</p>
-                        </div>
-
-                        <div>
-                                <h2 class='content-heading'>Recipe Web App</h2>
-                                <img class="content-image" id='work-img' src="images/recipes.png"/>
-                                <p class="content-text" id="about-text">Recipe Web App using DOM and dynamic Javascript</p>
-                                </div>
-        <!-- <div class="footer">
-            <p class='footer-text'>Footer Text</p>
-            <img class="social-icons" src="images/icon-facebook.png"/>
-            <img class="social-icons" src="images/icon-twitter.png"/>
-        </div> -->
+                <div class='work-tile'>
+                    <a class='work-link' href="https://davemarch.github.io/spaceinvaders-ver2/" target="_blank">
+                    <h2 class='content-heading'>Space Invaders</h2>
+                    <img class="content-image" id='work-img' src="images/SpaceInvaders.png" />
+                    </a>
+                    <p class="content-text" id="about-text">A tribute to the classic game, adapted for mobile and
+                        desktop.</p>
+                </div>
+                <div class='work-tile'>
+                    <a class='work-link' href="https://davemarch.github.io/Recipes/" target="_blank">
+                    <h2 class='content-heading'>Recipe Web App</h2>
+                    <img class="content-image" id='work-img' src="images/recipes.png" />
+                    </a>
+                    <p class="content-text" id="about-text">Recipe Web App using DOM and dynamic Javascript</p>
+                </div>
+            </div>
+        </div>
     </div>
-    
+
 </body>
+
 </html>

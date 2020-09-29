@@ -25,6 +25,10 @@ p {
     font-size: 0.5em;
 }
 
+
+
+
+
 input[type="submit"],
 button {
 -webkit-appearance: none;
@@ -214,11 +218,14 @@ li:nth-child(3){
     text-align: center;
 }
 
+.content-wrapper {
+
+    text-align: center;
+}
 
 .content1 {
     position: relative;
-    background: rgba(128, 128, 128, 0.5);
-    height: 33.333%;
+    background: white;
 }
 
 .content-heading{
@@ -240,7 +247,7 @@ li:nth-child(3){
 
 #about-img {
     position: relative;
-    height: 150%;
+    height: 300px;
     border-radius: 15%;
 }
 
@@ -256,4 +263,12 @@ li:nth-child(3){
     height: auto;
     width: 50%;
     border-radius: 15%;
+}
+
+.work-tile {
+    position: relative;
+}
+
+.work-link {
+    display: block;
 }
